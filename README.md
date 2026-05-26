@@ -8,10 +8,9 @@ Determine the sensitivity of a PIN photodiode-based optical receiver by calculat
 
 ## Theory
 If only thermal noise is considered, the sensitivity of a PIN photodiode-based receiver is:
-
-
-
-<img width="1126" height="718" alt="image" src="https://github.com/user-attachments/assets/22298a91-302d-41e4-b254-86c9b8ec704e" />
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/22298a91-302d-41e4-b254-86c9b8ec704e" width="650">
+</p>
 
 ---
 
@@ -29,7 +28,9 @@ Receiver specifications:
 > **Note:** X and Y are the last two digits of your student ID.  
 > Example: If ID ends with **43**, then ST = 4.3 × 10⁻²² A²/Hz.  
 
-Using the formulas above, calculate the receiver sensitivity.
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/d4bdab08-b1dd-4067-ad41-f2d683919295" width="450">
+</p>
 
 ---
 
@@ -57,7 +58,13 @@ Steps:
 1. Adjust output power to **0 dBm**.  
 2. Set attenuator to **20 dB**.  
 3. Run the simulation.  
-4. Adjust attenuator until **Q factor = 6.00 ± 0.05**.  
+4. Adjust attenuator until **Q factor = 6.00 ± 0.05**.
+ <p align="center">
+  <img src="https://github.com/user-attachments/assets/5b3f7ed2-7a06-4daf-9535-30bd05f469c6" width="380">
+  <img src="https://github.com/user-attachments/assets/053c1be8-8696-4c47-9235-4273b92710e5" width="380">
+</p>
+
+
 
 ---
 
@@ -71,3 +78,5 @@ Your report should include:
 - Discussion of differences between analytical and simulation results.  
 
 ---
+## Result
+Thus the Experiment was successfully completed and the output is verified.
